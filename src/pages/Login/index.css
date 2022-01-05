@@ -1,0 +1,129 @@
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-logo img {
+    width: 200px;
+    height: 107px;
+    display: flex;
+    position: absolute;
+    top: 9%;
+    right: 44.5%;
+  }
+  
+  .login-esquerdo {
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    width: 450px;
+    height: 450px;
+    margin-top: 5%;
+  }
+  
+  .login-esquerdo h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    padding: 17px;
+    margin-bottom: 2%;
+    color: #1a1a1d;
+  }
+  
+  .login-esquerdo h4 {
+    margin-top: 20px;
+  }
+  
+  .loginInputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1a1a1d;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  .loginInputEmail svg {
+    margin-left: 13px;
+    font-size: 25px;
+  }
+  
+  .loginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #e1e1e6;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .loginInputPassword svg {
+    margin-left: 13px;
+    font-size: 25px;
+  }
+  
+  .loginInputPassword {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1a1a1d;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20%;
+  }
+  
+  .loginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #e1e1e6;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .login-esquerdo button {
+    background-color: #1a1a1d;
+    border-radius: 5px;
+    height: 30px;
+    width: 70%;
+    border: none;
+    margin-left: 16%;
+  }
+  
+  .login-esquerdo button:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .login-eye {
+    font-size: 30;
+    cursor: pointer;
+    margin-left: 85%;
+    top: 20px;
+    display: flex;
+  
+  }
+
